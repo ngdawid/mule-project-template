@@ -1,0 +1,5 @@
+proxy-one-api:
+  v1:
+    autodiscovery:
+      id: "169650"
+      flow: "proxy-one-api-v1-1.0.1-main"

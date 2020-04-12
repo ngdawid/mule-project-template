@@ -1,0 +1,15 @@
+#%RAML 1.0
+title: proxy-one-api
+baseUri: /services/v1/proxy-one-api
+mediaType:
+  - application/json
+version: v1
+protocols:
+  - HTTP
+/hello:
+  get:
+    responses:
+      "200":
+        body:
+          example: Example
+          type: string

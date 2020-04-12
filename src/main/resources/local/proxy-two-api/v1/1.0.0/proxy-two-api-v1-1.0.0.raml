@@ -1,0 +1,19 @@
+#%RAML 1.0
+title: second-specification
+baseUri: /services/v1/proxy-two-api
+mediaType:
+  - application/json
+version: v1
+protocols:
+  - HTTP
+/customers:
+  get:
+    queryParameters:
+      newQueryParameter:
+        example: Example
+        type: string
+    responses:
+      "200":
+        body:
+          example: Example
+          type: string

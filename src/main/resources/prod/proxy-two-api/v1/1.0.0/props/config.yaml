@@ -1,0 +1,5 @@
+proxy-two-api:
+  v1:
+    autodiscovery:
+      id: "169681"
+      flow: "proxy-two-api-v1-1.0.0-main"
